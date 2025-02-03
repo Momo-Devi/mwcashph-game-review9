@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #5fffca, #df7bfe);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #5fffca;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #5fffca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #5fffca, #df7bfe);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #5fffca, #df7bfe);
+}
+
+footer {
+    background: linear-gradient(90deg, #343a40, #212529);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        font-size: 0.9em;
+        padding: 6px 12px;
+    }
+}
